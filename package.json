@@ -4,7 +4,7 @@
   "description": "- GitHub Action script added",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
